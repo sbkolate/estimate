@@ -8,7 +8,7 @@ from frappe.model.document import Document
 
 class Estimate(Document):
         def validate(self):
-	    #msgprint(self.net_total)
+	    msgprint(self.net_total)
             self.calculate_net_total()
         
         def calculate_net_total(self):

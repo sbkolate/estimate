@@ -2,11 +2,11 @@
  "allow_copy": 0, 
  "allow_import": 1, 
  "allow_rename": 1, 
- "autoname": "field:item_code", 
+ "autoname": "", 
  "creation": "2015-02-17 13:56:16.840227", 
  "custom": 0, 
  "default_print_format": "Standard", 
- "description": "A Product or a Service ", 
+ "description": "", 
  "docstatus": 0, 
  "doctype": "DocType", 
  "document_type": "Master", 
@@ -159,7 +159,7 @@
   }, 
   {
    "allow_on_submit": 0, 
-   "description": "Unit of measurement of this item (e.g. Kg, Unit, No, Pair).", 
+   "description": "", 
    "fieldname": "unit_of_measure", 
    "fieldtype": "Select", 
    "hidden": 0, 
@@ -190,7 +190,7 @@
  "issingle": 0, 
  "istable": 1, 
  "max_attachments": 1, 
- "modified": "2015-02-17 14:25:55.112047", 
+ "modified": "2015-02-24 19:26:58.061779", 
  "modified_by": "Administrator", 
  "module": "Estimate", 
  "name": "Estimate Line Item", 
@@ -199,7 +199,7 @@
  "permissions": [], 
  "read_only": 0, 
  "read_only_onload": 0, 
- "search_fields": "item_name,description", 
- "sort_field": "modified", 
- "sort_order": "DESC"
+ "search_fields": "", 
+ "sort_field": "", 
+ "sort_order": "ASC"
 }
